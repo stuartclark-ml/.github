@@ -12,7 +12,7 @@ Building production ML systems.
 **Predicting Workplace Incident Severity Using BERT-Based NLP**  
 Probabilistic classification and SHAP analysis for UK OHS decision support.  
 arXiv: *link coming — submission in progress*  
-Model: *HuggingFace link coming*
+Model: [*HuggingFace link coming*](https://huggingface.co/stuSterfc/ohs-severity-classifier)
 
 ---
 

@@ -1,29 +1,30 @@
-## Stuart Clark — ML Engineering Portfolio
+## Stuart Clark — ML Engineer
 
-Building production ML systems.
+**Building explainable AI and document-intelligence pipelines for high-stakes, regulated domains.**
 
-**MSc Computer Science with AI** — Northumbria University 2024  
-**NEBOSH National Diploma, MCIEH** | 14 years OHS consulting
+**MSc Computer Science with AI (Distinction)** — Northumbria University (2026)  
+**Domain Expertise:** 14 years in operational risk and compliance (NEBOSH Diploma, MCIEH).  
+**Core Stack:** Python · FastAPI · ModernBERT · SHAP · Gemini 2.5 Flash API · Pydantic  
 
 ---
 
 ### Research
 
-**Predicting Workplace Incident Severity Using BERT-Based NLP**  
-Probabilistic classification and SHAP analysis for UK OHS decision support.  
-arXiv: *link coming — submission in progress*  
-Model: [*HuggingFace ohs-severity-classifier*](https://huggingface.co/stuSterfc/ohs-severity-classifier)
+**Predicting Workplace Incident Severity Using BERT-Based NLP** Probabilistic classification of safety narratives for operational decision support. Features SHAP attribution to provide transparent, audit-ready AI for non-technical stakeholders.  
+* **Paper:** *Manuscript in preparation* * **Model:** [HuggingFace: ohs-severity-classifier](https://huggingface.co/stuSterfc/ohs-severity-classifier)
 
 ---
 
 ### Portfolio Projects
 
-| Project | Description | Status |
-|---|---|---|
-| [OHS Document Intelligence Parser](https://github.com/stuartclark-ml/ohs-document-parser) | PDF extraction pipeline for OHS compliance documents — HSE notices, insurance certificates, training certificates | 🔨 In progress |
-| [EHS Intelligence API](https://github.com/stuartclark-ml/ehs-intelligence-api) | Agentic incident analysis — BERT severity classification, regulatory mapping, pattern analysis | 📋 Planned |
-| [OHS Investigation Framework](https://github.com/stuartclark-ml/ohs-investigation-framework) | Multi-agent workplace incident investigation system grounded in HSG245 | 📋 Planned |
+| Project | Description | Tech Stack | Status |
+| :--- | :--- | :--- | :--- |
+| **[Regulatory Document Intelligence Pipeline](https://github.com/stuartclark-ml/ohs-document-parser)** | End-to-end extraction API for unstructured compliance records (PDF/JPG). Automates parsing of complex certificates. | FastAPI, Gemini 2.5 Flash, PyMuPDF, Pydantic v2 | 🔨 In progress |
+
+**Roadmap / In Development:**
+* **Risk Intelligence API:** RESTful model API integrating NLP severity classification with XAI.
+* **Multi-Agent Investigation Framework:** Structured root-cause analysis system strictly grounded in regulatory frameworks.
 
 ---
 
-*Available for remote ML engineering roles and OHS AI consulting.*
+*Open to remote ML engineering roles in insurance, risk, compliance, or regulated tech.*
